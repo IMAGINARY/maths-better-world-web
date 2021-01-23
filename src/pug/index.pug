@@ -1,4 +1,7 @@
 extends tpl/page
 
+block init
+  - setLang('en');
+
 block main
-  include sections/main
+  include sections/grid

@@ -1,24 +1,11 @@
-# web-tpl
-Template project for websites and web apps.
+# Mathematics for a Better World website
 
-Basic gulpfile with SASS, GULP and Babel/Browserify compilation of Javascript.
+A mini website for the "Mathematics is Everywhere" theme of IDM 2021. It provides short texts
+presenting various ways in which mathematics improves the world.
 
-## How to use
+## Installation
 
-**Don't fork, don't clone.**
-
-0. Download the latest release and use it as basis for your new repository.
-0. Modify package.json and set the first four items
-    - name
-    - version
-    - description
-    - repository
-    - author
-0. Modify `src/pug/config.json` setting the site name, description and URL.
-0. Change this README file but keep the **Compiling** section below for reference. 
-
-**Note:** This project does not use semver as future versions might evolve breaking backwards compatibility as new tools 
-and standard practices are incorporated.
+The `dist` folder should be made public in the web server.
 
 ## Compilation
 
@@ -70,3 +57,36 @@ Either of these can be run separately.
     ```
     gulp watch
     ```
+
+## HTML generation
+
+The HTML content is built dynamically by pug out of data files in different languages.
+
+Each of the main pug files selects the language it'll be in with in its `init` block:
+
+```
+block init
+  - lang = 'en';
+```
+
+The building scripts in `src/pug/lib.js` read the data files from the `data` directory.
+
+To add a new language simply create or modify a pug file to initialize the right language code,
+add the translation file to the data directory and then run `gulp html` to build the HTML.
+
+### Item ordering
+
+The `src/pug/config.json` file defines an "order" property which is used to sort the applications in the
+home grid.
+
+## License
+
+Software Copyright 2021 IMAGINARY gGmbH, licensed under the MIT License.
+
+Text licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+
+For image licenses see the file image_licenses.md.
+
+If you create your own copy of this website using the included files you MUST modify the Impressum link to a page
+indicating your own legal responsability. You must also include text in the footer indicating the name of your
+own organization (and logo, optionally) and indication of any modifications to content done by you.

@@ -1,19 +1,35 @@
 const fs = require('fs');
 const path = require('path');
+const MarkdownIt = require('markdown-it')();
 const config = require('./config.json');
-const localizedStrings = require('./strings.json');
+
+const dataDirectory = '../data';
 
 let lang = 'en';
+let localizedData = null;
+let localizedStrings = null;
 
 function str(id) {
-  if (localizedStrings[id] !== undefined && localizedStrings[id][lang] !== undefined) {
-    return localizedStrings[id][lang];
+  if (localizedStrings[id] !== undefined) {
+    return MarkdownIt.renderInline(localizedStrings[id]);
   }
   return id;
 }
 
 function setLang(code) {
   lang = code;
+
+  const dataFilePath = path.join(dataDirectory, `${code}.json`);
+  localizedData = JSON.parse(fs.readFileSync(dataFilePath));
+  localizedStrings = {};
+  Object.entries(localizedData.texts).forEach(([id, data]) => {
+    if (id.substr(0, 1) === '@') {
+      localizedStrings[id.substr(1)] = data.title;
+    }
+  });
+
+  config.siteName = `${str('title')} | ${str('idm2020')}`;
+  config.siteDescription = str('description');
 }
 
 function getLang() {
@@ -37,6 +53,37 @@ function asset(filepath) {
   return url(`${parts.base in revManifest ? path.join(parts.dir, revManifest[parts.base]) : filepath}`);
 }
 
+function getApplications() {
+  const answer = [];
+  Object.entries(localizedData.texts)
+    .forEach(([id, item]) => {
+      if (id.substr(0, 1) !== '@') {
+        answer.push(Object.assign({}, { id }, item));
+      }
+    });
+  // Sort based on config
+  const positions = {};
+  config.order.forEach((id, i) => {
+    positions[id] = i + 1;
+  });
+  answer.sort((a, b) => {
+    const posA = positions[a.id] || 999999;
+    const posB = positions[b.id] || 999999;
+    if (posA < posB) return -1;
+    if (posA > posB) return 1;
+    return 0;
+  });
+  return answer;
+}
+
+function langSwitcher() {
+  return Object.entries(config.langSwitcher).map(([code, name]) => ({
+    code,
+    name,
+    path: code === config.langSwitcherDefault ? 'index.html' : `index_${code}.html`,
+  }));
+}
+
 module.exports = {
   str,
   setLang,
@@ -45,4 +92,6 @@ module.exports = {
   url,
   asset,
   config,
+  getApplications,
+  langSwitcher,
 };

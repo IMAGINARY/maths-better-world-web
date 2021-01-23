@@ -8,7 +8,9 @@
   "engines": {
     "node": ">=10.14.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "markdown-it": "^12.0.4"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
@@ -16,6 +18,7 @@
     "bootstrap": "^4.3.1",
     "browserify": "^16.2.3",
     "core-js": "^3.2.1",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-pug": "^4.0.1",
@@ -26,12 +29,12 @@
     "gulp-touch-fd": "^2.0.0",
     "gulp-uglify": "^3.0.2",
     "node-sass": "^4.12.0",
-    "del": "^5.1.0",
     "through2": "^3.0.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "scripts": {
+    "fetchData": "cd ../aux/fetchData && node fetchData.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build"
   }

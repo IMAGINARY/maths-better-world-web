@@ -14,7 +14,7 @@ const del = require('del');
 const pugHelper = require('./helpers/pug-helper');
 const pugData = require('./pug/data.js');
 
-const OUTPUT_DIR = '..';
+const OUTPUT_DIR = '../dist';
 const REV_MANIFEST = './pug/rev-manifest.json';
 
 const paths = {
@@ -43,6 +43,20 @@ const paths = {
   },
 };
 
+function safeClean(paths) {
+  // To avoid tragedy we check that all deleted files are within the assets directory.
+  // This is an extra layer of security.
+  const safePath = '../dist/assets';
+  paths.forEach((path) => {
+    if (path.substr(0, safePath.length) !== safePath) {
+      throw Error('Attempting to clean file from unsafe directory');
+    }
+  });
+  // By default del only deletes files under the working directory, but since our
+  // assets are stored one level above, we have to force it.
+  del.sync(paths, { force: true });
+}
+
 function html() {
   return gulp.src(paths.html.src)
     .pipe(pugHelper())
@@ -56,7 +70,7 @@ function html() {
 }
 
 function styles() {
-  del.sync(paths.styles.clean);
+  safeClean(paths.styles.clean);
   return gulp.src(paths.styles.src, { sourcemaps: true })
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
@@ -93,12 +107,12 @@ function es(entrypoint, outputName) {
 }
 
 function dependencies() {
-  del.sync(paths.dependencies.clean);
+  safeClean(paths.dependencies.clean);
   return es(paths.dependencies.src, paths.dependencies.filename);
 }
 
 function scripts() {
-  del.sync(paths.scripts.clean);
+  safeClean(paths.scripts.clean);
   return es(paths.scripts.src, paths.scripts.filename);
 }
 
