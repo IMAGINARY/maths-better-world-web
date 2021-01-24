@@ -71,6 +71,7 @@ ul.colored {
   height: 0;
   padding-bottom: 100%;
   background-color: #ececec;
+  border-radius: 50%;
   overflow: hidden; }
   .application > a {
     display: block;
@@ -87,21 +88,51 @@ ul.colored {
     transition: bottom 0.35s ease-out;
     pointer-events: none; }
     .application .overlay .title {
-      display: inline-block;
+      display: flex;
       position: absolute;
       bottom: 0;
       width: 100%;
+      height: 100%;
       padding: 10px;
       background-color: rgba(0, 61, 107, 0.75);
       color: white;
       font-weight: 700;
-      min-height: 60px; }
+      align-items: center;
+      justify-content: center; }
+
+.application {
+  border: 8px solid #0066b3;
+  box-sizing: content-box;
+  width: calc(100% - 16px * 2);
+  padding-bottom: calc(100% - 16px * 2);
+  margin-bottom: 20px !important; }
+
+.application-grid {
+  margin-top: 3em; }
+  .application-grid .col:nth-child(9n+1) .application {
+    border-color: #ffcb05; }
+  .application-grid .col:nth-child(9n+2) .application {
+    border-color: #0066b3; }
+  .application-grid .col:nth-child(9n+3) .application {
+    border-color: #ed1c24; }
+  .application-grid .col:nth-child(9n+4) .application {
+    border-color: #0066b3; }
+  .application-grid .col:nth-child(9n+5) .application {
+    border-color: #00aeef; }
+  .application-grid .col:nth-child(9n+6) .application {
+    border-color: #f58220; }
+  .application-grid .col:nth-child(9n+7) .application {
+    border-color: #00a651; }
+  .application-grid .col:nth-child(9n+8) .application {
+    border-color: #7670b3; }
+  .application-grid .col:nth-child(9n+9) .application {
+    border-color: #00aeef; }
 
 .modal-backdrop.show {
   opacity: 0.7; }
 
 .modal-header {
-  background-color: #c657a0;
+  background-color: #00a651;
   color: white;
   border-bottom: none; }
   .modal-header .close {
@@ -195,7 +226,7 @@ ul.colored {
   color: #fff;
   position: relative; }
   .header-col-title .square-height {
-    background-color: #c657a0; }
+    background-color: #00a651; }
   .header-col-title h1 {
     position: absolute;
     padding: 22px 20px;
@@ -316,4 +347,4 @@ ul.colored {
       width: 100%;
       height: 100%; }
 
-/*# sourceMappingURL=default-06656759db.css.map */
+/*# sourceMappingURL=default-5ec0666ed9.css.map */
