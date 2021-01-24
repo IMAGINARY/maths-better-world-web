@@ -23,10 +23,10 @@ config.languages.forEach((lang) => {
           translation[row.id] = {};
         }
         const object = translation[row.id];
-        if (row[lang].trim().length > 0) {
+        if (row[lang] && row[lang].trim().length > 0) {
           object[row.field] = row[lang].trim();
         } else {
-          object[row.field] = row.en.trim();
+          object[row.field] = row.en && row.en.trim();
         }
       });
     }
