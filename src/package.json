@@ -34,8 +34,10 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "scripts": {
-    "fetchData": "cd ../aux/fetchData && node fetchData.js",
+    "fetch-data": "cd ../aux/fetchData && node fetchData.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy-dry-run": "aws s3 sync --dryrun --delete --exclude .DS_Store ../dist/ s3://betterworld.idm314.org",
+    "deploy":         "aws s3 sync          --delete --exclude .DS_Store ../dist/ s3://betterworld.idm314.org"
   }
 }
