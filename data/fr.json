@@ -51,12 +51,12 @@
     "digital_music": {
       "title": "Musique digitale",
       "body": "La musique est constituée d'ondes qui vibrent dans nos oreilles. Ces ondes peuvent être stockées sur un CD sous forme de chaînes de nombres, en prélevant des échantillons à de courts intervalles de temps - généralement 44100 fois par seconde.  Les ondes sonores sont la combinaison de nombreuses ondes de fréquences différentes, dont certaines ne sont même pas perçues par nos oreilles. La transformée de Fourier nous permet de diviser une onde sonore complexe en plusieurs ondes simples. Les formats audio comme MP3 ne gardent que les fréquences audibles, ce qui réduit considérablement la taille des fichiers. Sans mathématiques, il n'y aurait ni iPod, ni Spotify, ni iTunes.",
-      "links": "www.theguardian.com/technology/2002/apr/04/internetnews.maths\nwww.mathscareers.org.uk/article/how-mp3-compression-work/\nen.wikipedia.org/wiki/Digital_audio"
+      "links": "http://www.theguardian.com/technology/2002/apr/04/internetnews.maths\nhttp://www.mathscareers.org.uk/article/how-mp3-compression-work/\nhttp://en.wikipedia.org/wiki/Digital_audio"
     },
     "computer_games": {
       "title": "Jeux à l'ordinateur",
       "body": "De nombreux jeux informatiques utilisent des graphiques 3D. Le déplacement et l'animation de ces éléments, ainsi que le rendu des couleurs, de la lumière et des ombres, nécessitent des vecteurs, des matrices et de nombreux autres concepts issus de l'algèbre linéaire et de la géométrie 3D.  Les jeux informatiques doivent également créer des animations réalistes de l'eau ou des objets physiques en mouvement et en collision. Ils utilisent souvent des solutions numériques d’équations différentielles partielles appropriées, telles que les équations de Navier-Stokes pour modéliser le liquide.  Enfin, les programmes informatiques doivent modéliser l'intelligence artificielle de personnages non jouables.",
-      "links": "www.mathscareers.org.uk/video/advancing-the-digital-arts/\nwww.mathscareers.org.uk/article/get-game/\nnrich.maths.org/1374"
+      "links": "http://www.mathscareers.org.uk/video/advancing-the-digital-arts/\nhttp://www.mathscareers.org.uk/article/get-game/\nhttp://nrich.maths.org/1374"
     },
     "big_data": {
       "title": "Données massives",
@@ -71,12 +71,12 @@
     "rockets": {
       "title": "Fusées et satellites",
       "body": "L'industrie aérospatiale a de nombreux défis. Pour atteindre l'espace, les fusées ont besoin de brûler du carburant pour la poussée. Plus de carburant rend une fusée plus puissante, mais la rend également plus lourde, bien que le poids du carburant diminue à mesure qu'il brûle... L'équation de Tsiolkovsky pour la fusée définit ces contraintes. Le mouvement des fusées et des satellites dans l'espace est régi par la gravité, avec des trajectoires décrites par des équations différentielles et une géométrie sphérique. Les communications dans l'espace posent des problèmes de bruit, de distance, et de manque de fiabilité... Les codes correcteurs d’erreurs aident à transmettre des messages non corrompus. Ce n'est pas du génie, ce sont des mathématiques!",
-      "links": "https://www.grc.nasa.gov/WWW/K-12/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
+      "links": "https://www.grc.nasa.gov/WWW/K-12/rocket/rktpow.html\nhttp://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nhttp://en.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nhttp://www.mathscareers.org.uk/article/escape-velocities/"
     },
     "internet_phones": {
       "title": "Internet et téléphones",
       "body": "Internet et les lignes téléphoniques forment un gigantesque réseau qui permet aux utilisateurs d'échanger des données. Tous les utilisateurs sont connectés par d'innombrables liens qui ont une capacité donnée. Les opérateurs de réseau doivent trouver un moyen de connecter l'expéditeur et le récepteur, sans dépasser la capacité d'aucune liaison.  Pour assurer un service fiable pour les appels téléphoniques, les mathématiques de la théorie des files d'attente et des modèles mathématiques utilisant des processus de Poisson sont utilisés.  Pour les connexions Internet, la méthode d’échanges de paquets est utilisée: toutes les données sont divisées en petits «paquets» qui sont transmis indépendamment.",
-      "links": "www.ams.org/notices/199808/paxson.pdf\nblog.wolfram.com/2013/03/21/the-mathematics-of-queues/\nen.wikipedia.org/wiki/Packet_switching\nmathigon.org/course/graph-theory"
+      "links": "http://www.ams.org/notices/199808/paxson.pdf\nhttp://blog.wolfram.com/2013/03/21/the-mathematics-of-queues/\nhttp://en.wikipedia.org/wiki/Packet_switching\nhttp://mathigon.org/course/graph-theory"
     },
     "search_engines": {
       "title": "Engins de recherche",
@@ -91,7 +91,7 @@
     "wildfire_modelling": {
       "title": "Modélisation des feux de brousse",
       "body": "Les feux de brousse font naturellement partie de nombreux écosystèmes, mais ils peuvent être très dangereux pour les infrastructures. Les pompiers peuvent utiliser des simulations mathématiques pour modéliser et prédire la progression d’un incendie. Ces simulations doivent tenir compte des différents couverts végétaux, de la chaleur et de l'humidité, du vent, des montagnes, ainsi que de l'apport variable d'oxygène, et nécessitent des mathématiques avancées et la mécanique des fluides.",
-      "links": "www.mathscareers.org.uk/article/line-fire/\nwww.fs.fed.us/pnw/pubs/journals/pnw_2004_costa001.pdf"
+      "links": "http://www.mathscareers.org.uk/article/line-fire/\nhttp://www.fs.fed.us/pnw/pubs/journals/pnw_2004_costa001.pdf"
     },
     "mri_tomography": {
       "title": "IRM et tomographie",
@@ -112,6 +112,39 @@
       "title": "Résolution de problèmes",
       "body": "La plupart des éléments de ce site Web présentent des applications réelles des mathématiques. Mais le simple fait de faire des mathématiques est important: les mathématiques inculquent la pensée structurée, le raisonnement logique, l'abstraction et la capacité d'exprimer des idées dans un langage précis. Ces compétences sont précieuses non seulement en science et en génie, mais dans toutes les autres disciplines - que ce soit en politique, en journalisme, en musique et en arts, en gestion, en droit ou ailleurs.",
       "links": "http://dspace.mit.edu/bitstream/handle/1721.1/5837/AIM-249.pdf"
+    },
+    "tsunami_warning": {
+      "title": "Alerte au tsunami",
+      "body": "Un tremblement de terre vient de se produire. Déclenchera t-il un tsunami ? Si oui, quelles côtes seront touchées et quand ? La modélisation mathématique permet de comprendre la propagation d'un tsunami, une fois que l'épicentre du tremblement de terre est localisé. En effet, la vitesse du tsunami est proportionnelle au carré de la profondeur de l'océan. Un tsunami peut passer inaperçu en haute mer. Lorsqu'il s'approche d'une côte, la profondeur diminue, permettant ainsi l'accumulation de l'eau jusqu'à des hauteurs impressionnantes. Une fois la modélisation terminée, des alertes peuvent être envoyées aux régions exposées.",
+      "links": "http://www.ams.org/publicoutreach/mathmoments/mm88-tsunami-podcast"
+    },
+    "group_testing": {
+      "title": "Dépistage par groupe",
+      "body": "Pour contrôler la résurgence de l'épidémie de COVID-19, il est important de faire beaucoup de tests afin de détecter les porteurs asymptomatiques. Il est très coûteux de ne détecter que quelques personnes infectées. Une meilleure technique consiste à effectuer des tests de groupe. Les personnes sont divisées en groupes de 20. Pour chaque groupe, un mélange des échantillons de chaque individu est testé. Si le mélange est négatif, alors aucun individu du groupe n'est infecté. Si le mélange est positif, alors chaque personne du groupe est testé. Supposons qu'un individu parmi les 100 soit infecté. L'individu infecté est alors trouvé avec seulement 25 tests, au lieu de 100.",
+      "links": "http://accromath.uqam.ca/volume/journee-internationale-des-mathematiques-accromath-multilingue/\nhttps://www.idm314.org/resources/activities/idm-group-screening-en.pdf"
+    },
+    "cell_antennas": {
+      "title": "Des antennes en téléphonie cellulaire",
+      "body": "Vous voulez couvrir un vaste territoire avec des antennes de téléphonie mobile de sorte que tout endroit du territoire soit à une distance au plus d d'une antenne. Quel est le moyen le plus économique de le faire ? Il a été démontré que la façon la plus économique est de placer les antennes aux sommets d'un pavage de triangles équilatéraux. L'utilisation d'un pavage carré nécessiterait (3√3)⁄4≈1,299 antennes supplémentaires, et l'utilisation d'un pavage hexagonal, deux fois plus."
+    },
+    "telescope_mirrors": {
+      "title": "Miroirs de télescope",
+      "body": "L'homme a toujours rêvé de voir plus loin dans l'univers. Cela nécessite de condenser la lumière émise par les corps célestes. La condensation d'un faisceau de lumière parallèle en un faisceau convergeant vers un point nécessite un miroir parabolique. Un miroir hyperbolique change la direction d'un faisceau convergent et un miroir elliptique transforme un faisceau divergent émis par un point en un faisceau convergent. La plupart des télescopes utilisent un miroir primaire, qui est parabolique, et au moins un miroir secondaire, mais parfois plus d'un. Ces derniers ont souvent la forme d'une conique.",
+      "links": "https://en.wikipedia.org/wiki/Reflecting_telescope\nhttps://www.youtube.com/watch?v=djkBahaEHG4"
+    },
+    "game_theory": {
+      "title": "Théorie des jeux",
+      "body": "Quelle est la meilleure stratégie pour gagner un match ? Quel est le meilleur intérêt d'une entreprise ou d'un pays ? Eh bien, pour le décider, il vaut mieux tenir compte du fait que vos partenaires sont intelligents ! Cela peut amener des entreprises ou gouvernements à coopérer, car une certaine forme de coopération est plus avantageuse qu'une simple concurrence. John Nash, mathématicien et prix Nobel d'économie, a introduit la notion d'équilibre de Nash comme stratégie dans un jeu non coopératif. Dans un tel jeu, chaque joueur est capable de connaître les stratégies d'équilibre des autres joueurs et, à l’équilibre,  aucun joueur ne peut faire mieux en ne changeant que sa propre stratégie.",
+      "links": "https://www.scientificamerican.com/article/what-is-game-theory-and-w/\nhttps://www.youtube.com/watch?v=MHS-htjGgSY\nhttps://www.youtube.com/watch?v=M3oWYHYoBvk"
+    },
+    "fair_division": {
+      "title": "Répartition équitable",
+      "body": "Partager une pizza en portions égales entre les convives n’est pas forcément optimal. Certains en auront trop, alors que d’autres resteront sur leur fin. La répartition équitable en est une dans laquelle chaque partenaire est également satisfait de son sort. Et, si on a aussi de la salade, peut-être que certains voudront moins de pizza et plus de salade. Dans la théorie de la répartition équitable, on s’intéresse à mathématiser ce genre de problèmes. Les applications sont nombreuses, en particulier pour élaborer les politiques gouvernementales visant à maximiser l’équité entre les citoyens.",
+      "links": "https://www.idm314.org/resources/activities/idm-fair-division-en.pdf\nhttps://www.youtube.com/watch?v=kaMKInkV7Vs\nhttps://www.youtube.com/watch?v=CBVg8x4LWZE"
+    },
+    "insurance": {
+      "title": "Assurance",
+      "body": "Le principe sous-jacent de l’assurance est de mélanger le risque. Si un million de personnes contractent une assurance pour leur maison et seulement 1000 propriétaires font une réclamation, cela permet à chaque assuré de n’assumer qu’un risque de 0,1% du prix de la réclamation moyenne. En contrepartie, un assuré peut se faire remplacer sa résidence si celle-ci est déclarée perte totale. Pour calculer le coût des primes, les compagnies d’assurances doivent estimer le coût des dommages à venir et ajouter leurs frais d’opérations. Le coût des dommages peut fluctuer significativement d’une année à l’autre, selon les cataclysmes naturels frappant une région."
     }
   }
 }

@@ -51,17 +51,17 @@
     "digital_music": {
       "title": "Digital Music",
       "body": "Music consists of waves that vibrate in our ears. These waves can be stored on a CD as a string of numbers, by taking samples at short time intervals – usually 44100 times per second.\n\nSound waves are the combination of many waves with different frequencies, some not even perceived by our ears. The Fourier transform allows us to split a complex sound wave into many simple ones. Audio formats like MP3 only keep the audible frequencies, thus making the files much smaller. Without mathematics there would be no iPods, Spotify or iTunes.",
-      "links": "www.theguardian.com/technology/2002/apr/04/internetnews.maths\nwww.mathscareers.org.uk/article/how-mp3-compression-work/\nen.wikipedia.org/wiki/Digital_audio"
+      "links": "http://www.theguardian.com/technology/2002/apr/04/internetnews.maths\nhttp://www.mathscareers.org.uk/article/how-mp3-compression-work/\nhttp://en.wikipedia.org/wiki/Digital_audio"
     },
     "computer_games": {
       "title": "Computer Games",
       "body": "Many computer games use 3D graphics. Moving and animating these, as well as rendering colors, light and shadows, requires vectors, matrices and many other concepts from linear algebra and 3D geometry.\n\nComputer games also have to create realistic animations of water or moving and colliding physical objects. They often use numerical solutions to the appropriate partial differential equations, such as the Navier-Stokes equations to model liquid.\n\nFinally, computer programs have to model the artificial intelligence of non-playable characters.",
-      "links": "www.mathscareers.org.uk/video/advancing-the-digital-arts/\nwww.mathscareers.org.uk/article/get-game/\nnrich.maths.org/1374"
+      "links": "http://www.mathscareers.org.uk/video/advancing-the-digital-arts/\nhttp://www.mathscareers.org.uk/article/get-game/\nhttp://nrich.maths.org/1374"
     },
     "big_data": {
       "title": "Big Data",
       "body": "Data is everywhere around us, and new data is created every time we browse the internet, complete a survey, or go shopping. Scientists collect data whenever they conduct an experiment, and sometimes these data sets are so large that they need to invent entirely new technologies to process them.\n\nTo make sense of data, we need statistics. Using mathematics we can convert a large collection of numbers – all of which are meaningless on their own – into very accurate information about the system which created the data. Statistics can also tell us if certain findings are valid or significant.",
-      "links": "en.wikipedia.org/wiki/Big_data\nen.wikipedia.org/wiki/Statistics\nwww.mathscareers.org.uk/article/statistically-savvy/"
+      "links": "http://en.wikipedia.org/wiki/Big_data\nhttp://en.wikipedia.org/wiki/Statistics\nhttp://www.mathscareers.org.uk/article/statistically-savvy/"
     },
     "predict_weather": {
       "title": "Predicting the weather",
@@ -71,17 +71,17 @@
     "rockets": {
       "title": "Rockets and Satellites",
       "body": "Aerospace industry has many challenges. To reach space, rockets need fuel to burn for thrust. More fuel makes a rocket more powerful, but it also makes it heavier, although the weight of fuel decreases as it burns... Tsiolkovsky rocket equation sets these constraints. The motion of rockets and satellites in space is governed by gravity, with trajectories described by differential equations and spherical geometry. Communications in space pose problems of noise, distance, unreliablity... mathematical codes help to transmit the data without corruption. It's not rocket science, it's mathematics!",
-      "links": "https://www.grc.nasa.gov/WWW/K-12/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
+      "links": "https://www.grc.nasa.gov/WWW/K-12/rocket/rktpow.html\nhttp://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nhttp://en.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nhttp://www.mathscareers.org.uk/article/escape-velocities/"
     },
     "internet_phones": {
       "title": "Internet and Phones",
       "body": "Both internet and phone lines form a gigantic network which allows users to exchange data. All users are connected by countless links which have a certain capacity. Network operators have to find a way to connect sender and receiver, without exceeding the capacity of any individual link.\n\nTo ensure a reliable service for phone calls the mathematics of queuing theory and mathematical models using Poisson processes are used.\n\nFor internet connections the method of packet-switching is used: all data is split into small “packets” which are transmitted independently.",
-      "links": "www.ams.org/notices/199808/paxson.pdf\nblog.wolfram.com/2013/03/21/the-mathematics-of-queues/\nen.wikipedia.org/wiki/Packet_switching\nmathigon.org/course/graph-theory"
+      "links": "http://www.ams.org/notices/199808/paxson.pdf\nhttp://blog.wolfram.com/2013/03/21/the-mathematics-of-queues/\nhttp://en.wikipedia.org/wiki/Packet_switching\nhttp://mathigon.org/course/graph-theory"
     },
     "search_engines": {
       "title": "Search Engines",
       "body": "Billions of people use the internet every day, for example using search engines like Google.\n\nIn order to find the most useful websites and display them at the top, Google represents all pages on the internet in a gigantic matrix, and you can use linear algebra, probability, and graph theory to find the most popular sites.\n\nGoogle uses mathematics for many other of its services: finding directions in Maps, spam detection in Gmail, voice recognition on Android, text recognition when scanning books, compressing YouTube videos, detecting faces in images, or translating text.",
-      "links": "www.ams.org/samplings/feature-column/fcarc-pagerank\nhttp://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38331.pdf"
+      "links": "http://www.ams.org/samplings/feature-column/fcarc-pagerank\nhttp://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38331.pdf"
     },
     "air_traffic": {
       "title": "Air Traffic",
@@ -91,7 +91,7 @@
     "wildfire_modelling": {
       "title": "Wildfire Modelling",
       "body": "Bushfires are a natural part of many ecosystems, but they could be very dangerous for humans. Firefighters can use mathematical simulations to model and predict the progress of the fire. These simulations have to take account of changing vegetation, heat and moisture, wind, hills, as well as varying oxygen supply, and require advanced mathematics and fluid dynamics.",
-      "links": "www.mathscareers.org.uk/article/line-fire/\nwww.fs.fed.us/pnw/pubs/journals/pnw_2004_costa001.pdf"
+      "links": "http://www.mathscareers.org.uk/article/line-fire/\nhttp://www.fs.fed.us/pnw/pubs/journals/pnw_2004_costa001.pdf"
     },
     "mri_tomography": {
       "title": "MRI and Tomography",
@@ -112,6 +112,39 @@
       "title": "Problem Solving",
       "body": "Most of the items on this website show real life applications of mathematics. But even just the process of doing mathematics is important: it teaches structured thinking, logical reasoning, abstraction, and the ability to express ideas in a precise language.\n\nThese skills are valuable not only in science and engineering, but in every single other discipline – whether in politics, journalism, music and arts, management, law, or anywhere else.",
       "links": "http://dspace.mit.edu/bitstream/handle/1721.1/5837/AIM-249.pdf"
+    },
+    "tsunami_warning": {
+      "title": "Tsunami warning",
+      "body": "An earthquake just happened. Will it trigger a tsunami? If yes, which coasts will be hit and when? Mathematical modeling allows understanding the propagation of a tsunami, once the epicenter of the earthquake is located. Indeed, the speed of the tsunami is proportional to the square of the depth of the ocean. A tsunami can go unnoticed on the high seas. When approaching a coast the depth decreases, thus allowing the piling up of the water up to impressive heights. Once the modeling is finished, alerts can be sent to the exposed regions.",
+      "links": "http://www.ams.org/publicoutreach/mathmoments/mm88-tsunami-podcast"
+    },
+    "group_testing": {
+      "title": "Group testing",
+      "body": "To control the resurgence of the COVID-19 pandemic, it’s important to detect asymptomatic carriers through extensive testing. This can be very expensive to detect only a few infected. A better technique is to do group testing: people are divided into groups, and a mix of samples from each group is tested. If the mix is negative, then no individual in the group is infected. If the mix is positive, then each person in the group needs to be tested to identify the positives. If one individual in 100 is infected, it can be found with only 25 tests (instead of 100) by using groups of 20 people.",
+      "links": "http://accromath.uqam.ca/volume/journee-internationale-des-mathematiques-accromath-multilingue/\nhttps://www.idm314.org/resources/activities/idm-group-screening-en.pdf"
+    },
+    "cell_antennas": {
+      "title": "Cell phone antennas",
+      "body": "You want to cover a large territory with cell phone antennas so that any point has an antenna no farther than a certain distance. What is the most economical way of doing it? It has been shown that the most economical way is to put the antennas at the vertices of a tiling of equilateral triangles. Using a square tiling would require (3√3)⁄4≈1.299 more antennas, and using a hexagonal tiling, twice as much."
+    },
+    "telescope_mirrors": {
+      "title": "Telescope mirrors",
+      "body": "Humans always dreamed to see further into the universe. This requires to condense the light emitted by the celestial bodies. Condensing a parallel beam of light into a beam converging to one point requires a parabolic mirror. A hyperbolic mirror changes the direction of a convergent beam and an elliptic mirror transforms a divergent beam emitted by one point into a convergent beam. Most telescopes use a primary mirror, which is parabolic, and at least one secondary mirror, but sometimes more than one. The latter often have the shape of a conic.",
+      "links": "https://en.wikipedia.org/wiki/Reflecting_telescope\nhttps://www.youtube.com/watch?v=djkBahaEHG4"
+    },
+    "game_theory": {
+      "title": "Game theory",
+      "body": "What is the best strategy to win a game? What is the best interest of a company or of a country? Well, to decide it, you better take into consideration that your partners are intelligent. This could bring some companies or governments to cooperate, because some form of cooperation is more advantageous than competition. John Nash, a mathematician and Nobel Prize in economics, introduced the notion of Nash equilibrium as a strategy in a non-cooperative game. There, each player is able to know the equilibrium strategies of the other players, and no player can do better by changing only their own strategy.",
+      "links": "https://www.scientificamerican.com/article/what-is-game-theory-and-w/\nhttps://www.youtube.com/watch?v=MHS-htjGgSY\nhttps://www.youtube.com/watch?v=M3oWYHYoBvk"
+    },
+    "fair_division": {
+      "title": "Fair division",
+      "body": "Sharing a pizza between guests in equal portions is not necessarily optimal: some will have too much, while others will still be hungry. A fair division is one in which every partner is equally satisfied with their lot. And, if we also have salad, perhaps some will want less pizza and more salad. In the theory of fair division, there is an interest in analyzing these kinds of problems mathematically. There are many applications, especially for developing government policies to maximize equity among citizens.",
+      "links": "https://www.idm314.org/resources/activities/idm-fair-division-en.pdf\nhttps://www.youtube.com/watch?v=kaMKInkV7Vs\nhttps://www.youtube.com/watch?v=CBVg8x4LWZE"
+    },
+    "insurance": {
+      "title": "Insurance",
+      "body": "The underlying principle of insurance is to mix risk. If a million people take out insurance for their homes and only 1,000 homeowners make a claim, this allows each insured to assume a risk of only 0.1% of the cost of the average claim price. On the other hand, an insured can have their home replaced if it is declared a total loss. To calculate the cost of premiums, insurance companies must estimate the cost of future damage and add their operating costs. The cost of damage can fluctuate significantly from one year to the next, depending on the natural disasters that strike a region."
     }
   }
 }
