@@ -28,7 +28,7 @@ function setLang(code) {
     }
   });
 
-  config.siteName = `${str('title')} | ${str('idm2020')}`;
+  config.siteName = `${str('title')} | ${str('idm_year')}`;
   config.siteDescription = str('description');
 }
 
