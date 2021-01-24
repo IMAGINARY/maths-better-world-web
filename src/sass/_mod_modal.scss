@@ -1,5 +1,6 @@
 .modal-backdrop.show {
   opacity: 0.7;
+  -webkit-transform: translateZ(1000px);
 }
 
 .modal-header {
@@ -12,4 +13,8 @@
     font-size: 2.2em;
     color: $color-white;
   }
+}
+
+.modal {
+  -webkit-transform: translateZ(1000px);
 }
