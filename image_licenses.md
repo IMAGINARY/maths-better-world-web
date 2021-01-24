@@ -101,10 +101,65 @@ The image was cropped from the original.
 
 ## search_engines
 
-Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com [CC BY (https://creativecommons.org/licenses/by/4.0)]
+icons8, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Search--v2.png
 
 Edward Xuereb [Public domain]
 https://commons.wikimedia.org/wiki/File:LCD_TFT_Screen_Closeup.jpg
 
 The images were digitally composited and recolored.
 
+## tsunami_warning
+
+This image is in the public domain because it contains materials that originally came from the 
+U.S. National Oceanic and Atmospheric Administration, taken or made as part of an employee's 
+official duties.
+https://commons.wikimedia.org/wiki/File:2004IndianOceanTsunami.jpg
+
+The image was cropped.
+
+## group_testing
+
+Noguchi Memorial Institute for Medical Research, 
+CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+
+https://commons.wikimedia.org/wiki/File:COVID-19_PCR_testing_in_Ghana.png
+
+The image was cropped from the original.
+
+## cell_antennas
+
+Image 1:
+
+M.O. Stevens, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Cell_tower_on_Sexton_Mountain_-_Beaverton,_Oregon.JPG
+
+Image 2:
+
+Greensburger, Public domain, via Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:CellTowersAtCorners.gif
+
+Images were composited and edited from the original.
+
+## telescope_mirrors
+
+NASA, Public domain, via Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Hubble_01.jpg
+
+Image was edited and cropped from the original.
+
+## game_theory
+
+Peter Badge / Typos1, 
+CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:John_Forbes_Nash,_Jr._by_Peter_Badge.jpg
+
+Image was cropped from the original.
+
+## fair_division
+
+pizza.de, 
+CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Pizza_vegetariana.jpg
+
+Image was cropped from the original.
