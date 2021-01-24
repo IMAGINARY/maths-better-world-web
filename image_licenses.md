@@ -163,3 +163,11 @@ CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Com
 https://commons.wikimedia.org/wiki/File:Pizza_vegetariana.jpg
 
 Image was cropped from the original.
+
+## insurance
+
+This photo was taken by Przemysław JahrAutorem zdjęcia jest Przemysław JahrWykorzystując 
+zdjęcie proszę podać jako autora:Przemysław Jahr 
+/ Wikimedia Commons, Public domain, via Wikimedia Commons
+
+https://commons.wikimedia.org/wiki/File:Dom_do_g%C3%B3ry_nogami_2013.jpg
