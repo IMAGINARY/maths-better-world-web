@@ -130,7 +130,7 @@
     "telescope_mirrors": {
       "title": "Espejos de telescopio",
       "body": "Los humanos siempre soñaron con ver más lejos hacia el espacio. Para esto es necesario concentrar la luz emitida por los cuerpos celestiales.  Para convertir un haz de luz paralelo en uno que converge en un punto necesitamos un espejo parabólico. Un espejo hiperbólico cambia la dirección de un haz convergente, y un espejo elíptico transforma un haz divergente en uno convergente. La mayoría de los telescopios usan un espejo principal, que es parabólico, y al menos un espejo secundario. Estos últimos muchas veces tienen la forma de una curva cónica.",
-      "links": "https://en.wikipedia.org/wiki/Reflecting_telescope\nhttps://www.youtube.com/watch?v=djkBahaEHG4"
+      "links": "https://es.wikipedia.org/wiki/Telescopio_reflector\nhttps://www.youtube.com/watch?v=djkBahaEHG4"
     },
     "game_theory": {
       "title": "Teoría de juegos",
