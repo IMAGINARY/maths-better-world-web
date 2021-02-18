@@ -1,7 +1,7 @@
 {
   "spreadsheetID": "1LLuSKVAZ2mnm1QZijzuouOKt2q8NNgpkk0YBk_UDy_g",
   "worksheetID": 0,
-  "languages": ["en", "fr", "es"],
+  "languages": ["en", "fr", "es", "tr", "pt"],
   "ignoredIDs" : [],
   "destinationPath": "../../data"
 }

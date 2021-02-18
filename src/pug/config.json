@@ -6,7 +6,9 @@
   "langSwitcher": {
     "en": "English",
     "es": "Español",
-    "fr": "Français"
+    "fr": "Français",
+    "pt": "Português",
+    "tr": "Türkçe"
   },
   "langSwitcherDefault": "en",
   "order": [

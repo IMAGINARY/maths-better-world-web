@@ -59,7 +59,7 @@
     right: 0;
     bottom: 0;
     backface-visibility: hidden;
-    transition: transform 0.5s ease-in, background-color 0.5s 0.2s;
+    transition: transform 0.3s ease-in, background-color 0.3s 0.2s;
     transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
     -webkit-transform-style: preserve-3d;
@@ -78,6 +78,10 @@
   }
 
   a:hover {
+    .front, .back {
+      transition: transform 0.5s ease-in, background-color 0.5s 0.2s;
+    }
+
     .front {
       transform: rotateY(180deg);
     }
