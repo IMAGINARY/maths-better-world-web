@@ -83,7 +83,7 @@ home grid.
 
 Software Copyright 2021 IMAGINARY gGmbH, licensed under the MIT License.
 
-Text licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+Text by Philipp Legner (Mathigon) and IMAGINARY gGmbH. Licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 For image licenses see the file image_licenses.md.
 
